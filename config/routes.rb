@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  get 'greeting/random'
-  root "greeting#random"
+  namespace :api do
+    namespace :v1 do
+      get 'greetings/show'
+    end
+  end
+
+  root "greetings#show"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
