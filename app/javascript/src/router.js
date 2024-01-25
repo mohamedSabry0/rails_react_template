@@ -8,10 +8,10 @@ import Greeting from './components/Greeting';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <>
+    <Fragment>
       <Route path="/" element={<Greeting />} />
       <Route path="*" element={<h2>Page Not Found</h2>} />
-    </>
+    </Fragment>
     ,
   ),
 );

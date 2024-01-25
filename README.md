@@ -3,7 +3,6 @@
 <div align="center">
 
   <h3><b>My New Rails-React App</b></h3>
-  <img src="./splash_mock.png" alt="My New Rails-React App screenshot" width="400" height="auto">
 
 </div>
 
@@ -11,7 +10,6 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 About My New Rails-React App ](#-about-my-new-rails-react-app-)
-- [Live Demo](#live-demo)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,6 +17,9 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
+    - [Usage](#usage)
+  - [👤 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show Your Support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -27,11 +28,6 @@
 # 📖 About My New Rails-React App <a name="about-my-new-rails-react-app"></a>
 
 My New Rails-React App is a web application template that combines the power of Ruby on Rails and React.js. It provides a solid foundation for building modern, scalable, and interactive web applications.
-
-# Live Demo
-
-[Demo](https://my-new-rails-react-app-demo.com)
-[video](https://www.loom.com/share/fa8d0563178c4b5fb19fc4849d3670bd?sid=657c532b-01e2-4f63-8fa7-58a891c2f6e8)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,8 +75,8 @@ Ensure you have the following prerequisites installed:
 
 - Ruby 3.2.2
 - Bundler 2.5.1
-- Node.js 14.17.0
-- Yarn 1.22.10
+- Node.js 19.6.0
+- Yarn 3.4.1
 
 ### Setup
 
@@ -108,24 +104,58 @@ yarn install
 Prepare the database:
 
 ```bash
-rails db:create
-rails db:migrate
-rails db:seed
+rails db:prepare
 ```
+
+### Usage
+
+to use this project:
+
+```bash
+./bin/dev
+```
+
+then visit http://localhost:3000
+
+## 👤 Author <a name="author"></a>
+
+**Mohamed Sabry**
+
+- GitHub: [@mohamedSabry0](https://github.com/mohamedSabry0)
+- Twitter: [@mohsmh0](https://twitter.com/mohsmh0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-sabry0/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Implement actions for tests.
+- Setup testing libraries for both Rails and React.
+- Create a Dockerfile for the application.
+- Include comprehensive guides for deployment options.
+- Create scripts for additional setup and deployment options.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mohamedSabry0/rails_react_template/issues).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show Your Support <a name="support"></a>
 
 If you find helpful, kindly show your support by giving it a star or providing feedback for further improvements.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgments"></a>
 
 - [Microverse](https://www.microverse.org/)
 - [Rails Guides](https://guides.rubyonrails.org/)
-- [Testing HTML form validation](https://stackoverflow.com/a/48206413)
+- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
+- [Set Up a Ruby on Rails v7 Project with a React Frontend](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04#step-5-configuring-react-as-your-rails-frontend)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
