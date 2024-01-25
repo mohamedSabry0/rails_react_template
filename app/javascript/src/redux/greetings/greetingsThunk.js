@@ -12,5 +12,4 @@ const fetchGreetings = createAsyncThunk('greetings/fetchGreetings', async () => 
   return response;
 });
 
-
-export { fetchGreetings };
+export default fetchGreetings;

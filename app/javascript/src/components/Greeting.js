@@ -1,8 +1,5 @@
-
-
-import React from "react";
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useEffect } from 'react';
 import { greetingsState, fetchGreetings } from '../redux/greetings/greetingsSlice';
 
 function Greeting() {
@@ -20,7 +17,7 @@ function Greeting() {
       <div className="greetings-list">
         {greetings.map((greeting) => {
           const {
-            message, id
+            message, id,
           } = greeting;
           return (
             <div key={id}>
